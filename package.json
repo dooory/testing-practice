@@ -16,5 +16,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.5",
+    "jest": "^30.3.0"
   }
 }
