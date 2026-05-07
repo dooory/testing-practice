@@ -1,4 +1,4 @@
-import { reverseString } from "../myFunctions";
+import reverseString from "../myFunctions/reverseString";
 
 test("Reverse string", () => {
   expect(reverseString("mystring")).toBe("gnirtsym");

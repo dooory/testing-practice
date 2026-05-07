@@ -1,4 +1,4 @@
-import { caesarCipher } from "../myFunctions";
+import caesarCipher from "../myFunctions/caesarCipher";
 
 test("Shift a string by shift factor", () => {
   //   expect(caesarCipher("abc", 3)).toBe("def");
