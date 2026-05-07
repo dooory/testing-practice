@@ -1,4 +1,4 @@
-import calculator from "../myFunctions/calculator";
+import calculator from "./calculator";
 
 const cal = calculator();
 

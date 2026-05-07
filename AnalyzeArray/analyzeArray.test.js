@@ -1,4 +1,4 @@
-import analyzeArray from "../myFunctions/analyzeArray";
+import analyzeArray from "./analyzeArray";
 
 const validateArray = (array, average, min, max, length) => {
   const arrayCopy = [...array];
