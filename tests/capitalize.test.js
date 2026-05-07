@@ -1,4 +1,4 @@
-import capitalize from "./capitalize";
+import { capitalize } from "../myFunctions";
 
 test("Capitalize first letter of word", () => {
   expect(capitalize("hello")).toBe("Hello");

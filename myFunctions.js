@@ -1,4 +1,4 @@
-const capitalize = (word) => {
+export const capitalize = (word) => {
   if (typeof word === "number") {
     return word.toString();
   }
@@ -13,5 +13,3 @@ const capitalize = (word) => {
 
   return word.replace(firstLetter, firstLetter.toUpperCase());
 };
-
-export default capitalize;
